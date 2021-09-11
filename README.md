@@ -9,6 +9,7 @@ Technology Used
   <li>CSS</li>
   <li>Javascript</li>
   <li>Solidity</li>
+  <li>Web3.js</li>
   <li>Express.js</li>
 </ul>
 
