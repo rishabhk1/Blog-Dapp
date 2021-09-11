@@ -1,0 +1,246 @@
+#navbar{
+    background-color: rgb(14, 10, 10);
+    overflow: hidden;
+    height: 37px;
+    margin: 0;
+
+}
+html{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+.title{
+    padding:4px ;
+    color: white;
+    font-size: 1.5em;
+    margin-left:30px; 
+    font-weight: bold;
+    text-transform: lowercase;
+    padding-right:0px;
+    padding-bottom: 0; 
+    display: inline-block;
+    
+    
+}
+.title1{
+    padding:4px;
+    padding-bottom: 0;
+    padding-left:0; 
+    color: #BEB7A4;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-transform: lowercase;
+    padding-right:0px;
+    padding-bottom: 0; 
+    display: inline-block;
+
+}
+.account{
+    color: white;
+    font-size: 1em;
+    float: right;
+    padding:8px;
+    padding-right:10px; 
+    
+}
+.mylogo{
+    color: white;
+    float: right;
+    margin-right:20px;
+}
+body{
+    margin: 0;
+    background-color: #FBFFE9;
+    font-family: 'Montserrat', sans-serif;
+   
+    min-height: 100%;
+}
+.tobecenter{
+    margin-left:33%;
+    margin-right: 33%;
+}
+.card {
+    /* Add shadows to create the "card" effect */
+    
+    transition: 0.3s;
+    
+    
+    
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+
+
+  .blogcard:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+.blogcard{
+    margin-top:5%;
+    padding-left: 3%;
+    padding-top:3%;
+    height:fit-content;
+    box-shadow: 0 4px 8px 0 rgba(14, 10, 10,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    background-color:#BEB7A4;
+    width:inherit;
+}
+.profile{
+    float: left;
+    margin-right:1%;
+    visibility: visible;
+}
+
+.blogcardcontent{
+    padding-left: 8%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-bottom:2%; 
+    padding-right: 2%;
+    word-wrap: break-word; 
+}
+.blogcardaddress{
+   
+    font-weight: bold;
+    padding-left: 6%;
+    padding-top: 1%;
+    font-size:15px;
+    word-wrap: break-word; 
+
+
+    
+}
+.tipbutton{
+    background-color: rgb(14, 10, 10);
+    width: 20%;
+    color: white;
+    height: 27px;
+    min-width: 20%;
+    border-radius: 12px;
+
+}
+.tipamount{
+    border-radius: 12px;
+    height: 24px;
+    width: 18%;
+    margin-left: 27%;
+
+
+}
+.postbutton{
+    background-color: rgb(14, 10, 10);
+    width: 20%;
+    color: white;
+    height: 27px;
+    border-radius: 12px;
+    margin-left: 38%;
+    margin-top:2%;
+}
+#content{
+    margin-left: 3%;
+    width: 92%;
+}
+button{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border: solid 2px black;
+}
+
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+textarea{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    resize: none;
+    border-radius: 9px;
+    outline: none;
+    border: solid 2px #BEB7A4;
+    background: #FBFFE9;
+
+}
+input{
+    outline: none;
+    border: solid 2px #BEB7A4;
+    font-family: 'Montserrat', sans-serif;
+    font-size:15px;
+    background: #FBFFE9;
+}
+.currenttip{
+    font-size:15px;
+    padding-top: 1%;
+    font-weight: bold;
+    padding-bottom: 1%;
+
+}
+
+.status{
+    position: fixed;
+    bottom:5%;
+    right:3%;
+    background-color:rgb(14, 10, 10);
+    width: 10%; 
+    height: 6%;
+    border-radius: 12px;
+    font-weight: bold;
+    color: #BEB7A4;
+}
+
+.statustext{
+    
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 2%;
+
+}
+
+#totaltip{
+    margin: 0 auto;
+    text-align: center;
+  
+
+}
+
+.moveup,#moveupimage{
+    position:fixed;
+    bottom:5%;
+    right:3%;
+    width: 40px; 
+    height: 40px;
+}
+
+a:link {
+    text-decoration: none;
+    color: rgb(14, 10, 10);
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color: rgb(14, 10, 10);
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    color: rgb(14, 10, 10);
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

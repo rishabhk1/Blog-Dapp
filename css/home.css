@@ -1,0 +1,96 @@
+html{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+body{
+    margin: 0;
+    background-color: rgb(14, 10, 10);
+    font-family: 'Montserrat', sans-serif;
+   
+    min-height: 100%;
+    text-align: center;
+    overflow: hidden;
+
+}
+.text1,.text2{
+  font-size:60px;
+  color:#FBFFE9;
+ 
+}
+.logo{
+  height: 12%;
+  width: 12%;
+}
+
+.text2{
+  margin-bottom: 1%;
+}
+
+.main{
+  margin-top:10%; 
+}
+.title{
+
+    color: white;
+    font-size:100px;
+    font-weight: bold;
+    text-transform: lowercase;
+    display: inline-block;
+    
+     
+}
+.title1{
+
+    color: #BEB7A4;
+    font-weight: bold;
+    font-size:100px;
+    text-transform: lowercase;
+    display: inline-block;
+    
+
+}
+.postbutton{
+    position: relative;
+    display: inline-flex;
+    width: 180px;
+    height: 55px;
+    margin: 0 15px;
+    perspective: 1000px;
+  }
+.postbutton a{
+    font-size: 19px;
+    letter-spacing: 1px;
+    transform-style: preserve-3d;
+    transform: translateZ(-25px);
+    transition: transform .25s;
+    font-family: 'Montserrat', sans-serif;
+    
+  }
+  .postbutton a:before,
+  .postbutton a:after{
+    position: absolute;
+    content: "start now";
+    height: 55px;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid rgb(14, 10, 10);
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+  .postbutton a:before{
+    color: #BEB7A4;
+    background: rgb(14, 10, 10);
+    transform: rotateY(0deg) translateZ(25px);
+  }
+  .postbutton a:after{
+    color:rgb(14, 10, 10);
+    background: #BEB7A4;
+    transform: rotateX(90deg) translateZ(25px);
+  }
+  .postbutton a:hover{
+    transform: translateZ(-25px) rotateX(-90deg);
+  }
+  
